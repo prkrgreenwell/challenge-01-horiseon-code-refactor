@@ -1,13 +1,16 @@
+/* Deletes any border including around title banner */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Turns background to a more neutral color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets the style of the heading banner */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Makes company logo bigger and inline */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Stylizes the company logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets banner link syle and moves them to right side of the screen. Multiple backup fonts selected */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Makes sure no browser list settings disrupt the style of the links */
 .header div ul {
     list-style-type: none;
 }
 
+/* Keeps link list items side by side */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets link to a permanent white color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* Sets background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +70,7 @@ p {
     background-position: center;
 }
 
+/* Sets the marketing pictures where they should be stylistically */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -86,6 +98,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets the stle for the icons on the right side of the screen */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +147,7 @@ p {
     max-width: 150px;
 }
 
+/* Sets style for left side boxes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,6 +202,7 @@ p {
     font-size: 36px;
 }
 
+/* Sets footer style */
 .footer {
     padding: 30px;
     clear: both;
